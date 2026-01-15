@@ -1,0 +1,24 @@
+.input {
+  width: 500px;
+  padding: 8px;
+  color: #000;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  height: 32px;
+  font-size: 14px;
+    outline: none;
+
+  &:hover {
+    border-color: #ddb26f;
+  }
+
+  &:focus {
+    outline: none;
+    border:  2px solid #ddb26f;
+  }
+
+  &::placeholder {
+    color: gray;
+  }
+}

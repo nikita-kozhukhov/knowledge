@@ -1,0 +1,25 @@
+.cube_container {
+  margin-bottom: 150px;
+}
+
+.cube_header {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.mySwiper {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+
+  :global {
+    .swiper-pagination {
+      bottom: -50px;
+
+      .swiper-pagination-bullet-active {
+        background-color: #001529;
+      }
+    }
+  }
+}

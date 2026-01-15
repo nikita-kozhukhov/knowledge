@@ -1,0 +1,36 @@
+.actions-container {
+  padding: 30px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.table {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #001529;
+  color: #f5f3f0;
+}
+
+.body {
+  background-color: white;
+}
+
+.header-cell {
+  padding: 10px 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.cell {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid #001529;
+}
