@@ -26,6 +26,8 @@ export default function ExportPdfButton({
     );
 
     const docDefinition: TDocumentDefinitions = {
+      pageOrientation: 'landscape',
+      pageSize: 'A4',
       content: [
         {
           table: {
